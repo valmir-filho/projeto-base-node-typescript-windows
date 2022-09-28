@@ -1,35 +1,42 @@
-Sequência de passos para setup de projetos Node com TypeScript para Windows.
+Sequência de etapas para setup de projetos Node com TypeScript para Windows.
 
 Esse template pode ser clonado e executado (comando: "npm install") para instalação das dependências. Isso garante que os arquivos de configuração "tsconfig.json" e "eslintrc.json" sejam iguais.
 
 Pré-requisitos do ambiente de desenvolvimento:
 
-- Visual Studio Code (ou outro editor de texto)
-- Node.js + NPM
-- Git
-- Compilador TypeScript instalado globalmente - `npm i -g typescript`
-- Simulador de runtime TypeScript instalado globalmente - `npm i -g ts-node`
-- Biblioteca de tipos do Node.js instalada globalmente - `npm i -g @types/node`
-## Passo a passo para um novo projeto
-Após criar a pasta para seu projeto:
-1. `git init` - Inicia repositório git na pasta
-2. Vincular o repositório Git a um repositório remoto (geralmente hospedado no GitHub)
-3. Criar arquivo `.gitgnore` e registrar nele a pasta `node_modules/`
-4. `npm init -y` - Cria o arquivo `package.json`, iniciando projeto Node.js
-5. Instalar dependências de desenvolvimento
-   1. `npm i -D typescript` - Dependência local do TypeScript para desenvolvimento
-   2. `npm i -D ts-node` - Simulador do runtime TypeScript
-   3. `npm i -D eslint` - Linter para o TypeScript
-   4. `npm i -D @types/node` - Biblioteca de tipos para os módulos nativos do Node.js
-6. `tsc --init` - Cria o arquivo `tsconfig.json`, com as configurações do TypeScript para o projeto
-7. `npm init @eslint/config` - Cria o arquivo de configuração do ESLint
-8. `npm i -D dotenv` - Instala a dependência do pacote `dotenv` para interpretação de variáveis de ambiente em ambiente de desenvolvimento
-9. Criar o arquivo `.env` e preencher com `NODE_ENV=development`
-10. Alterar os arquivos `tsconfig.json` e `.eslintrc.json` conforme desejado
-11. Alterar o arquivo `package.json` conforme necessidade:
-    1. Alterar o caminho do arquivo principal (*main*) para o arquivo de saída principal emitido pelo TypeScript. Por ex.: `./dist/index.js`
-    2. Inserir scripts dos comandos `start`, `dev` e `build` desejados
-    
-    Repositório de exercícios do curso de Web Moderno Completo com JavaScript da Udemy.
+- Visual Studio Code (ou outro editor de texto);
+- Node.js + npm;
+- Git;
+- Compilador TypeScript instalado globalmente ("npm install -g typescript");
+- Simulador de runtime TypeScript instalado globalmente ("npm install -g ts-node");
+- Biblioteca de tipos do Node.js instalada globalmente ("npm install -g @types/node");
 
+Etapas para criação de um novo projeto
+
+- Criar uma pasta para o projeto;
+- Iniciar o repositório "git" na pasta ("git init");
+- Vincular o repositório "git" a um repositório remoto (sugestão: GitHub);
+- Criar o arquivo "gitignore" e incluir a pasta "node_modules/";
+- Criar o arquivo "package.json" ("npm init -y") para iniciar o projeto Node.js;
+- Criar o arquivo ".env" e preencher com "NODE_ENV=development".
+
+Instalação das dependências de desenvolvimento:
+
+- "npm i -D typescript" (dependência local do TypeScript para desenvolvimento);
+- "npm i -D ts-node" (simulador do runtime TypeScript);
+- "npm i -D eslint" (linter para o TypeScript);
+- "npm i -D @types/node" (biblioteca de tipos para os módulos nativos do Node.js);
+- "tsc --init" (cria o arquivo "tsconfig.json", com as configurações do TypeScript para o projeto);
+- "npm init @eslint/config" (cria o arquivo de configuração do ESLint);
+- "npm i -D dotenv" (instala a dependência do pacote "dotenv" para interpretação de variáveis de ambiente no ambiente de desenvolvimento);
+
+Observações:
+
+- Alterar os arquivos "tsconfig.json" e "eslintrc.json" conforme necessidade;
+
+- Alterar o arquivo "package.json" conforme necessidade. Exemplos:
+   * Alterar o caminho do arquivo principal (main) para o arquivo de saída principal emitido pelo TypeScript;
+-Por ex.: `./dist/index.js`
+    2. Inserir scripts dos comandos `start`, `dev` e `build` desejado
+ 
 IDE utilizada: Visual Studio Code.
