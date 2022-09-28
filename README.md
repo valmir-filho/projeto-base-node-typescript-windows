@@ -1,7 +1,9 @@
-# Sequência de passos para setup do projeto Node com TypeScript
-Se preferir, você pode clonar este template para uma pasta em sua máquina e executar o comando `npm install` para instalar as dependências.
-Isso garante que os arquivos de configuração do TypeScript (`tsconfig.json`) e ESLint (`.eslintrc.json`) sejam iguais.
-## Pré-requisitos do ambiente de desenvolvimento
+Sequência de passos para setup de projetos Node com TypeScript para Windows.
+
+Esse template pode ser clonado e executado (comando: "npm install") para instalação das dependências. Isso garante que os arquivos de configuração "tsconfig.json" e "eslintrc.json" sejam iguais.
+
+Pré-requisitos do ambiente de desenvolvimento:
+
 - Visual Studio Code (ou outro editor de texto)
 - Node.js + NPM
 - Git
@@ -27,3 +29,7 @@ Após criar a pasta para seu projeto:
 11. Alterar o arquivo `package.json` conforme necessidade:
     1. Alterar o caminho do arquivo principal (*main*) para o arquivo de saída principal emitido pelo TypeScript. Por ex.: `./dist/index.js`
     2. Inserir scripts dos comandos `start`, `dev` e `build` desejados
+    
+    Repositório de exercícios do curso de Web Moderno Completo com JavaScript da Udemy.
+
+IDE utilizada: Visual Studio Code.
