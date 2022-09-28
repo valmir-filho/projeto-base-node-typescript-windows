@@ -9,7 +9,7 @@ Pré-requisitos do ambiente de desenvolvimento:
 - Git;
 - Compilador TypeScript instalado globalmente ("npm install -g typescript");
 - Simulador de runtime TypeScript instalado globalmente ("npm install -g ts-node");
-- Biblioteca de tipos do Node.js instalada globalmente ("npm install -g @types/node");
+- Biblioteca de tipos do Node.js instalada globalmente ("npm install -g @types/node").
 
 Etapas para criação de um novo projeto
 
@@ -28,15 +28,14 @@ Instalação das dependências de desenvolvimento:
 - "npm i -D @types/node" (biblioteca de tipos para os módulos nativos do Node.js);
 - "tsc --init" (cria o arquivo "tsconfig.json", com as configurações do TypeScript para o projeto);
 - "npm init @eslint/config" (cria o arquivo de configuração do ESLint);
-- "npm i -D dotenv" (instala a dependência do pacote "dotenv" para interpretação de variáveis de ambiente no ambiente de desenvolvimento);
+- "npm i -D dotenv" (instala a dependência do pacote "dotenv" para interpretação de variáveis de ambiente no ambiente de desenvolvimento).
 
 Observações:
 
 - Alterar os arquivos "tsconfig.json" e "eslintrc.json" conforme necessidade;
 
 - Alterar o arquivo "package.json" conforme necessidade. Exemplos:
-   * Alterar o caminho do arquivo principal (main) para o arquivo de saída principal emitido pelo TypeScript;
--Por ex.: `./dist/index.js`
-    2. Inserir scripts dos comandos `start`, `dev` e `build` desejado
+  - modificar o caminho do arquivo principal (main) para o arquivo de saída principal emitido pelo TypeScript ("./build/index.js");
+  - inserir scripts dos comandos "start", "dev" e "build".
  
 IDE utilizada: Visual Studio Code.
