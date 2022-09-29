@@ -27,7 +27,20 @@ Instalação das dependências de desenvolvimento:
 - "npm i -D eslint" (linter para o TypeScript);
 - "npm i -D @types/node" (biblioteca de tipos para os módulos nativos do Node.js);
 - "tsc --init" (cria o arquivo "tsconfig.json", com as configurações do TypeScript para o projeto);
-- "npm init @eslint/config" (cria o arquivo de configuração do ESLint);
+- "npm init @eslint/config" (cria o arquivo de configuração do ESLint). Após a instalação, Definir as seguintes configurações:
+  - How would you like to use EsLint? "To check syntax, find problems, and enforce code style";
+  - What type of modules does your project use? "JavaScript modules (import/export)";
+  - Which framework does your project use? "None of these";
+  - Does your project use TypeScript? "Yes";
+  - Where does your code run? "✓Browser ✓Node";
+  - How would you like to define a style for your project? "Answer questions about your style";
+  - What format do you want your config file to be in? "JSON";
+  - What style of identation do you use? "Tabs";
+  - What quotes do you use for strings? "Double";
+  - What line endings do you use? "Windows";
+  - Do you require semicolons? "Yes";
+  - Would you like to install them now? "Yes";
+  - Which package manager do you want to use? "npm";
 - "npm i -D dotenv" (instala a dependência do pacote "dotenv" para interpretação de variáveis de ambiente no ambiente de desenvolvimento).
 
 Observações:
