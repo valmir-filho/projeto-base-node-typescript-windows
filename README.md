@@ -16,7 +16,7 @@ Etapas para criação de um novo projeto:
 - Criar uma pasta para o projeto;
 - Iniciar o repositório "git" na pasta ("git init");
 - Vincular o repositório "git" a um repositório remoto (sugestão: GitHub);
-- Criar o arquivo "gitignore" e incluir a pasta "node_modules/";
+- Criar o arquivo ".gitignore" e incluir as pastas: "node_modules/" e ".vscode/";
 - Criar o arquivo "package.json" ("npm init -y") para iniciar o projeto Node.js;
 - Criar o arquivo ".env" e preencher com "NODE_ENV=development".
 
