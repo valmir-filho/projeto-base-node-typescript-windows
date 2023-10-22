@@ -1,8 +1,8 @@
-Sequência de etapas para setup de projetos Node com TypeScript para Windows.
+# Sequência de etapas para setup de projetos Node com TypeScript para Windows.
 
-Esse template pode ser clonado e executado (comando: "npm install") para instalação das dependências. Isso garante que os arquivos de configuração "tsconfig.json" e "eslintrc.json" sejam iguais.
+* Esse template pode ser clonado e executado (comando: "npm install") para instalação das dependências. Isso garante que os arquivos de configuração "tsconfig.json" e "eslintrc.json" sejam iguais.
 
-Pré-requisitos do ambiente de desenvolvimento:
+## Pré-requisitos do ambiente de desenvolvimento:
 
 - Visual Studio Code (ou outro editor de texto);
 - Node.js + npm;
@@ -11,7 +11,7 @@ Pré-requisitos do ambiente de desenvolvimento:
 - Simulador de runtime TypeScript instalado globalmente ("npm install -g ts-node");
 - Biblioteca de tipos do Node.js instalada globalmente ("npm install -g @types/node").
 
-Etapas para criação de um novo projeto:
+## Etapas para criação de um novo projeto:
 
 - Criar uma pasta para o projeto;
 - Iniciar o repositório "git" na pasta ("git init");
@@ -20,7 +20,7 @@ Etapas para criação de um novo projeto:
 - Criar o arquivo "package.json" ("npm init -y") para iniciar o projeto Node.js;
 - Criar o arquivo ".env" e preencher com "NODE_ENV=development".
 
-Instalação das dependências de desenvolvimento:
+## Instalação das dependências de desenvolvimento:
 
 - "npm i -D typescript" (dependência local do TypeScript para desenvolvimento);
 - "npm i -D ts-node" (simulador do runtime TypeScript);
@@ -43,7 +43,7 @@ Instalação das dependências de desenvolvimento:
   - Which package manager do you want to use? "npm";
 - "npm i -D dotenv" (instala a dependência do pacote "dotenv" para interpretação de variáveis de ambiente no ambiente de desenvolvimento).
 
-Observações:
+## Observações:
 
 - Alterar os arquivos "tsconfig.json" e "eslintrc.json" conforme necessidade;
 
@@ -51,4 +51,4 @@ Observações:
   - modificar o caminho do arquivo principal (main) para o arquivo de saída principal emitido pelo TypeScript (exemplo: "./build/index.js");
   - inserir scripts dos comandos "start", "dev" e "build".
  
-IDE utilizada: Visual Studio Code.
+### IDE utilizada: Visual Studio Code.
